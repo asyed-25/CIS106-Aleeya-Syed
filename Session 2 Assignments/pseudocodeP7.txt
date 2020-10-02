@@ -1,0 +1,10 @@
+Chapter 2 Problem 7 (pseudocode)
+Program to prompt the user for the name of their dog and its age in human years.
+Calculate and display the age of their dog in dog years, based on the popular myth that one human year equals seven dog years.
+
+Prompt user for dog name and age(human years)
+human_years = dog_years * 7 
+dog_years = human_years/7
+dog_name = input
+Output dog_name + "is" dog_years "years old in dog years."
+

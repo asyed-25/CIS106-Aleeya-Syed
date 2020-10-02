@@ -1,0 +1,18 @@
+Chapter 2 Problem 6 (pseudocode)
+Program that helps the user determine how much paint is required to paint a room and how much it will cost.
+Ask the user for the length, width, and height of a room, the price of a gallon of paint, and the number of square feet that a gallon of paint will cover. 
+Calculate the total area of the four walls as 2 * length * height + 2 * width * height 
+Calculate the number of gallons as: total area / square feet per gallon
+
+Input length, width, and height
+Input price/paint gallon and number of square feet that a gallon of paint will cover
+height = input
+width = input
+length = input
+price = input
+squareft = input
+area = 2 * length * height + 2 * width * height
+gallons = total area / square feet per gallon
+Amount of paint is the number of gallons
+Cost is the total area * price of a paint gallon
+Output cost for x amount of paint  
