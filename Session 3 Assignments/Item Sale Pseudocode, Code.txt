@@ -1,0 +1,32 @@
+Pseudocode/program code that prompts the user for quantity of items and price per item and uses a function to compute the cost (quantity x price per item). 
+Use a second function to compute sales tax of 7%. 
+Compute total as cost + sales tax. Display quantity, price per item, cost, sales tax, and total.
+
+
+//Pseudocode
+1. Prompt user to input quantity for each item using the input function
+	input('')
+2. Promt user to input price for each item using the input function
+	input('')
+3. Use the int and float functions to help with the input
+	int(), float()
+4. Define what the cost is equal to (how to find the cost)
+	cost = 
+5. Define how much the sales tax is 
+	sales_tax = 
+6. Define what the total is equal to (how to find the total)
+	total = 
+7. Display the quantity, price, cost, sales tax, and total for the items using the print function
+	print()
+
+
+
+// Program code
+item_quant = int(input('How many items are there? ')
+item_price = float(input('Put in the price per item: ')
+cost = quantity * price
+
+sales_tax = 0.07
+total = cost + sales_tax
+print(item_quant, item_price, cost, sales_tax, total)
+

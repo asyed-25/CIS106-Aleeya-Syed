@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="insiy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-07 02:55:37 PM"/>
+        <attribute name="created" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTAtMDc7MDI6Mjc6MjQgUE07Mjg4OA=="/>
+        <attribute name="edited" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTAtMDc7MDI6NTU6MzcgUE07MzszMDAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Declare variables for the width and height of the rectangle."/>
+            <declare name="width" type="Integer" array="False" size=""/>
+            <input variable="width"/>
+            <declare name="height" type="Integer" array="False" size=""/>
+            <input variable="height"/>
+            <comment text="Define how to calculate area and perimeter"/>
+            <declare name="area" type="Integer" array="False" size=""/>
+            <assign variable="area" expression="width * height"/>
+            <declare name="perimeter" type="Integer" array="False" size=""/>
+            <assign variable="perimeter" expression="2 * (width + height)"/>
+            <comment text="Display the area and perimeter"/>
+            <output expression="(area)" newline="True"/>
+            <output expression="perimeter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

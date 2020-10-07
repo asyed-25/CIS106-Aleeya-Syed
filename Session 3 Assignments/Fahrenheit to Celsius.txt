@@ -1,0 +1,8 @@
+Create a list of function return values that would be used to follow the input-process-output model and convert Fahrenheit temperature to Celsius
+
+1. def Fahrenheit
+2. input function for Fahrenheit
+3. float function to input
+4.  defining how to convert from Fahrenheit to Celsius
+	Fahrenheit = 
+5. print function to display result
