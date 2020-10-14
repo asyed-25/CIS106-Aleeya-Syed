@@ -9,8 +9,8 @@ Display the Name, Exam 1 score, Exam 2 score, and sum of the exams
 last_name = input("Enter your last name: ")
 exam1 = input("Enter your score for the first exam: ")
 exam2 = input("Enter your score for the second exam: ")
-sum = int(exam1) + int(exam2)
 
 print(last_name +  ", " + "Your first exam score was " + exam1)
 print("Your second exam score was " + exam2)
-print("The total score for both exams is: " + sum)
+print("The total score for both exams is: ")
+print(int(exam1) + int(exam2))
