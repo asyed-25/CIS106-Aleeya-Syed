@@ -1,13 +1,3 @@
-//Pseudocode
-Create a variable to store the temperature
-Design a set of conditions for the temp
-If the temp is less than a number, print...
-If the temp is less than or equal to a number, print...
-If the temp is greater than a number, print...
-If the previous conditions aren't met, print...
-
-
-//Code Implemented
 temp = 55
 
 if temp < 20:
