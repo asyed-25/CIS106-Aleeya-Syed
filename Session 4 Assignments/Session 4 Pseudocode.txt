@@ -1,0 +1,29 @@
+Problem 1 Pseudocode:
+ 
+Create a variable to store the temperature
+Design a set of conditions for the temp
+If the temp is less than a number, print...
+If the temp is less than or equal to a number, print...
+If the temp is greater than a number, print...
+If the previous conditions aren't met, print...
+
+
+Problem 2 Pseudocode:
+
+Create variable for user to put in their last name(prompt user)
+Create variable for user to put in Exam 1 score (prompt user)
+Create variable for user to put in Exam 2 score (prompt user)
+Find the sum of the two exam scores
+Display the Name, Exam 1 score, Exam 2 score, and sum of the exams
+
+
+Problem 3 Pseudocode:
+
+Create variable for user to input the number of tickets
+Create variable for user to input the price per ticket
+Define variable for the cost (number of tickets * price per seat)
+Define variable for the tax (7% of cost)
+Define variable for the total (cost + tax)
+Create function that passes through these values
+Return the function
+
