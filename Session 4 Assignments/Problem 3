@@ -1,1 +1,10 @@
+ticket_num = input("Enter the number of tickets: ")
+ticket_price = input("Enter the price per seat: ")
+cost = int(ticket_num) * int(ticket_price)
+tax = int(cost)/0.07
+total = int(cost) + int(tax)
 
+def tickets():
+    print(cost + tax + total) 
+
+return tickets()
