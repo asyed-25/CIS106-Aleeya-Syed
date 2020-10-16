@@ -1,11 +1,3 @@
-//Pseudocode
-Create variable for user to put in their last name(prompt user)
-Create variable for user to put in Exam 1 score (prompt user)
-Create variable for user to put in Exam 2 score (prompt user)
-Find the sum of the two exam scores
-Display the Name, Exam 1 score, Exam 2 score, and sum of the exams
-
-//Code
 last_name = input("Enter your last name: ")
 exam1 = input("Enter your score for the first exam: ")
 exam2 = input("Enter your score for the second exam: ")
