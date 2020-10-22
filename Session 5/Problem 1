@@ -1,1 +1,15 @@
+quantity = input("Enter the quantity: ")
+unitPrice = input("Enter the price per unit: ")
+tax = int(quantity) * float(unitPrice) / 0.07
+extendedPrice = int(quantity) * float(unitPrice) + int(tax)
 
+def shippingCharge():
+    if extendedPrice > 100:
+        shippingCharge = 0
+    else:
+        shippingCharge = extendedPrice / 0.10
+        
+print("The quanitity is " + quantity)
+print("The unit price is " + unitPrice)
+shippingCharge()
+print("Your total is : " + total)
