@@ -1,0 +1,16 @@
+widget = str(input("Enter the widget letter: "))
+quantity = int(input("Enter the quantity: "))
+priceA = 10
+priceB = 20
+extendedPrice = quantity * price
+
+def extendedPrice():
+    if widget = "A"
+    print(priceA)
+    extendedPrice = quantity * priceA
+    else:
+        print(priceB)
+        extendedPrice = quantity * priceB
+        
+extendedPrice()
+print(widget, quantity, extendedPrice)
