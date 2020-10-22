@@ -1,0 +1,15 @@
+last_name = str(input("What is your last name? "))
+hours = float(input("How many hours did you work? "))
+rate = float(input("What was the hourly rate? "))
+#gross_pay = hours * rate
+
+def overtime(gross_pay):
+    if hours > 40:
+        gross_pay = hours * rate
+        overtime = rate * 1.5
+    else:
+        gross_pay = hours * rate
+        overtime = 0
+
+return gross_pay
+print(last_name, hours, rate, gross)
