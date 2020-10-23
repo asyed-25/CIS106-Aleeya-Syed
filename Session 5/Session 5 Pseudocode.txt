@@ -1,0 +1,30 @@
+Problem 2 Pseudocode
+Make a variable for the user to put in type of widget 
+	widget = str(input(""))
+Make variable for user to input quantity
+	quantity = int(input(""))
+Make variables for prices
+	priceA =
+	priceB = 
+Make variable for extended price
+	extendedPrice = quantity * price
+Create function for the extended price 
+	define what happens if the input is A
+	define what happens otherwise if the input is B
+Return the function
+Print the widget, quantity, and extendedPrice
+
+
+Problem 3 Pseudocode
+Make variable for user to input last name
+	last_name = str(input(""))
+Make variable for user to input number of hours worked
+	hours = float(input(""))
+Make variable for usesr to input hourly rate
+	rate = float(input(""))
+Create function for overtime with the parameter of gross pay
+	define what happens if the hours are > 40
+		overtime = hours * rate
+	define what happens if the hours are < 40
+Return the function
+Print last_name, hours, rate, gross_pay
