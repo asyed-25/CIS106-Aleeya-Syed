@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="insiy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-22 08:16:18 PM"/>
+        <attribute name="created" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTAtMjE7MDI6MzY6MDQgUE07Mjg4Mg=="/>
+        <attribute name="edited" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTAtMjI7MDg6MTY6MTggUE07MjQ7MzA1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quantity" type="Real" array="False" size=""/>
+            <declare name="UnitPrice" type="Real" array="False" size=""/>
+            <declare name="ShippingCharge" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the quantity of items? &quot;" newline="True"/>
+            <input variable="Quantity"/>
+            <output expression="&quot;What is the price per unit? &quot;" newline="True"/>
+            <input variable="UnitPrice"/>
+            <declare name="ExtendedPrice" type="Real" array="False" size=""/>
+            <assign variable="ExtendedPrice" expression="Quantity * UnitPrice"/>
+            <declare name="Price" type="Real" array="False" size=""/>
+            <output expression="ExtendedPrice" newline="True"/>
+            <declare name="Tax" type="Real" array="False" size=""/>
+            <assign variable="Tax" expression="ExtendedPrice / 0.07"/>
+        </body>
+    </function>
+    <function name="Price" type="Real" variable="Price">
+        <parameters>
+            <parameter name="ExtendedPrice" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Quantity" type="Real" array="False" size=""/>
+            <declare name="UnitPrice" type="Real" array="False" size=""/>
+            <declare name="Tax" type="Real" array="False" size=""/>
+            <assign variable="Tax" expression="ExtendedPrice / 0.07"/>
+            <declare name="ExtendedPrice" type="Real" array="False" size=""/>
+            <assign variable="ExtendedPrice" expression="Quantity * UnitPrice + Tax"/>
+        </body>
+    </function>
+</flowgorithm>
