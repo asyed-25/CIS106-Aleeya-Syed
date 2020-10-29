@@ -1,0 +1,12 @@
+def quantity(item_quant):
+    if item_quant > 1000:
+        unitPrice = 8.00
+    else:
+        if item_quant >= 500:
+            unitPrice = 10.00
+        else:
+            unitPrice = 12.00
+
+item_quant = int(input("Enter the number of items ordered: "))
+unitPrice = quantity(item_quant)
+print("The extended price for your item(s) is $" + str(unitPrice))
