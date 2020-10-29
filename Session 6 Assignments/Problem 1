@@ -1,0 +1,15 @@
+def serviceAward(years):
+    if years > 10:
+        award = 1000
+    else:
+        if years >= 5:
+            award = 500
+        else:
+            award = 100
+    
+    return award
+
+# Main
+print("Enter the years of service: ")
+
+print("The award amount is $" + str(award))
