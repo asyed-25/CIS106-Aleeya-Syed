@@ -9,4 +9,5 @@ def quantity(item_quant):
 
 item_quant = int(input("Enter the number of items ordered: "))
 unitPrice = quantity(item_quant)
-print("The extended price for your item(s) is $" + str(unitPrice))
+extendedPrice = item_quant * unitPrice
+print("The extended price for your item(s) is $", extendedPrice)
