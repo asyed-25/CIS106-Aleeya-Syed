@@ -1,0 +1,19 @@
+def interest_rate(amount):
+    if float(amount) >= 5 or 10:
+        IR = 0.02
+    elif amount >= 1 and 2 and 3:
+        IR = 0.01
+    else:
+        IR = 0.005
+        
+        return IR
+
+#Input variables
+amount = input("Enter the investment amount: ")
+term = input("Enter the term: ")
+
+#Calling statement
+IR = interest_rate(amount)
+
+print("The interest rate is", IR*100,"%")
+print("for",term,"term(s).")
