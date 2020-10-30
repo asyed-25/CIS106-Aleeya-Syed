@@ -1,0 +1,76 @@
+Problem 2 Pseudo code:
+1. Create variable for user to input item quantity
+	item_quant = int(input(""))
+2. Create vairable for the price per unit
+	unitPrice = int(input(""))
+3. Make function for the quantity that passes the parameter of quantity
+	def quantity(item_quant)
+4. Define what occurs if the item_quant is greater than 1000
+	if item_quant > 1000:
+        unitPrice = 8.00
+5. Define what occurs if the item_quant is greater than or equal to 500
+	else:
+		if item_quant >= 500:
+        	unitPrice = 10.00
+6. Define what occurs otherwise
+        else:
+            unitPrice = 12.00
+7. Create variable for the extended price
+	extendedPrice = item_quant * unitPrice
+8. Print the extended price
+	print("The extended price for your item(s) is $", extendedPrice)
+
+
+
+Problem 3 Pseudocode:
+1. Create variable for user to input amount
+	amount = input("")
+2. Create variable for user to input term
+	term = input("")
+3. Make function interest_rate that passes through the amount parameter
+	def interest_rate(amount)
+4. Define what occurs if the amount is greater than or equal to 5 or 10 years
+	if float(amount) >= 5 or 10:
+        IR = 0.02
+5. Define what occurs if the amount is greater than or equal to 1,2, or 3 years
+	elif amount >= 1 and 2 and 3:
+        IR = 0.01
+6. Define what occurs otherwise
+	IR = 0.005
+7. Return the function
+	return IR
+8. Call the function
+	IR = interest_rate(amount)
+9. Display the interest rate and the term
+
+
+Problem 4 Pseudocode:
+1. Create variable for user to input their last name
+	last_name = input("")
+2. Create variable for user to input their job code
+	job_code = input("")
+3. Create variable for user to input the number of years
+	years = input("")
+4. Make function for employee bonus passing through the parameters of job_code and years
+	def emp_bonus(job_code, years)
+5. Define what occurs if the job code is A and the number of years is >= 10
+ if job_code = 'A' and years >= 10:
+        bonus = 10000
+6. Define what occurs if the job code is A and the number of years is >= 5
+  elif job_code = 'A' and years >= 5:
+        bonus = 80000
+7. Define what occurs if the job code is B and the number of years is >= 15
+ elif job_code = 'B' and years >= 15:
+        bonus = 9000
+8. Define what occurs otherwise
+ else:
+   	bonus = 5000
+9. Return the function
+	return bonus
+10. Create variable for the bonus
+	bonus = emp_bonus(years)
+11. Display the last name and bonus
+	print(last_name, bonus)
+
+    
+        
