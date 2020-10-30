@@ -1,0 +1,18 @@
+def emp_bonus(job_code, years):
+    if job_code = 'A' and years >= 10:
+        bonus = 10000
+    elif job_code = 'A' and years >= 5:
+        bonus = 80000
+    elif job_code = 'B' and years >= 15:
+        bonus = 9000
+    else:
+        bonus = 5000
+        
+    return bonus
+
+last_name = input("Enter your last name: ")
+job_code = input("Enter your job code: ")
+years = input("Enter the years of service: ")
+bonus = emp_bonus(years)
+
+print(last_name, bonus)
