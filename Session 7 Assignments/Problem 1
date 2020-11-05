@@ -1,0 +1,4 @@
+number = range(1,25)
+
+while number in range:
+    print(number)
