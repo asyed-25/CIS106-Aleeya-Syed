@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="insiy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-05 04:10:08 PM"/>
+        <attribute name="created" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTEtMDQ7MTA6Mzc6NTUgQU07Mjg3NQ=="/>
+        <attribute name="edited" value="aW5zaXk7TEFQVE9QLTVDUlJSNE81OzIwMjAtMTEtMDU7MDQ6MTA6MDggUE07ODsyOTk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <assign variable="number" expression="range(1,25)"/>
+            <while expression="number = range(1,25)">
+                <output expression="number" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
