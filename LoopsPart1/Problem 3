@@ -1,0 +1,10 @@
+program = str(input("Do you want to do this program?"))
+
+if program == "Yes":
+    while program == "Yes":
+        last_name = str(input("What is your last name? "))
+        exam1 = str(input("What is your score for your first exam? "))
+        exam2 = str(input("What is the score for your second exam? "))
+        average = sum(exam1 + exam2) / 2
+        print(last_name, average)
+        loop = str(input("Do you want to do this loop again?"))
