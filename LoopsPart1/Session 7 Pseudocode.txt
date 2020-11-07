@@ -1,0 +1,41 @@
+Problem 2 Pseudo Code:
+1. Make variabel to have user input the start value 
+	start = int(input(""))
+2. Make variable to have the user input the end value
+	end = int(input(""))
+3. Make variable to have the user input the increment
+	increment = = int(input(""))
+4. Create a function that passes through the parameters of start, end, & increment
+	def numbers(start,end,increment):
+5. Make while loop inside the function  
+	while numbers == start:
+6. Increment the numbers from the beginning
+    	start += increment
+7. Return the function
+   	 return numbers
+8. Display the numbers form 1-25
+	print(numbers(start,end,increment))
+
+
+
+Problem 3 Pseudo Code:
+1. Create variable for user to input whether they want to do the program or not
+	program = str(input(""))
+2. Create if statement for what happens if the user wants to continue
+	if program == "Yes":
+3. Make while loop inside the if statement describing what happens while the input was Yes
+	while program == "Yes":
+4. Create variable for user to input their last name in the while loop
+	last_name = str(input(""))
+5. Create variable for user to input their first exam in the while loop
+    exam1 = str(input(""))
+6. Create variable for user to input their second exam in the while loop
+     exam2 = str(input(""))   
+7. Create variable to determine the average of the two exams
+      average = sum(exam1 + exam2) / 2
+8. Display the last name and the average
+     print(last_name, average)   
+9. Ask the user if they would like to redo the loop in order to have the loop execute again or not
+     loop = str(input("")) 
+  
+        
