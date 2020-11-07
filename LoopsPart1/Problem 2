@@ -1,0 +1,9 @@
+start = str(input("Enter the starting value: "))
+end = str(input("Enter the ending value: "))
+increment = str(input("Enter the increment value: "))
+
+def numbers(start,end,increment):
+    while numbers == start:
+      start += increment
+    return numbers
+print(numbers(start,end,increment))
