@@ -1,0 +1,6 @@
+seq = 0
+seq2 = 1
+
+while seq == 11:
+    print(seq)
+    fib = seq + seq2
