@@ -1,0 +1,22 @@
+Problem 1 Pseudocode
+
+1. Ask user to input the amount they want to invest
+	amount = int(input(""))
+2. Ask the user to input the interest rate of the CD
+	IR = int(input(""))
+3. Ask the user to input the term(in years) 
+	term = int(input(""))
+4. Create function for the years
+	def years():
+5. Create for loop in function defining what happens for each term
+	for i in term:
+6. Define what the balance is equal to
+	balance = amount * IR * term
+7. Print the investment amount 
+	print("The investment amount is: ", amount)
+8. Print the interest rate
+	print("The interest rate is: ", IR)
+9. Print the term
+	print("The term is: ", term)
+10. Print the total balance
+	print("The total balance is: ", balance)
