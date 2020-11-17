@@ -1,0 +1,10 @@
+#Add another array to problem 1 above. This array should contain exam score for the respective students. 
+#The first name goes with the first score etc. These are called parallel arrays. 
+#Also modify the display functions to include exam score array in addition to the last name array
+
+last_name = ["Syed", "Raza", "Jaffer", "Hussain", "Hassan", "Muhammed", "Naqvi", "Rizvi", "Sultan", "Chawla"]
+exam_score = [90,91,92,93,94,95,96,97,98,99]
+
+def arrays():
+    for i in last_name, exam_score:
+        print(last_name[i], exam_score[i])
