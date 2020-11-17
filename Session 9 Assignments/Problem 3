@@ -1,0 +1,30 @@
+#Add a function to the problem to display the last name and highest, last name and lowest and average exam score. 
+#Hint: for highest initialize a variable to 0 (high_var). 
+#If the array value is higher than the high_var then set high_var to the array value 
+#and set high_index to the position of the array. Proceed through the array until you get to the end. 
+#Do the same for finding the lowest using low_var set to 999 (higher than the highest value). 
+
+#For the average score, sum all the exam scores as you proceed through the loop.
+#Use a for loop to go through each occurrence of the arrays.
+
+high_var = 0
+sum = 0
+
+def high_array():
+    if last_name > high_var:
+        high_var = last_name
+        high_index = last_name[i]  
+    return(high_array)
+        
+def low_array():
+    if last_name > low_var:
+        low_var = last_name
+        low_index = last_name[i]
+    else: 
+        low_var = 0
+    return(low_array)
+
+def sum():
+    for i in exam_score:
+        sum = sum + i
+    return(sum)
