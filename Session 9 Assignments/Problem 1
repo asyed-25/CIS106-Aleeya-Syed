@@ -1,0 +1,12 @@
+#Assign 10 last names to an array. Write a function to display the names.
+#Write another function to display the names in reverse order.
+
+last_name = ["Syed", "Raza", "Jaffer", "Hussain", "Hassan", "Muhammed", "Naqvi", "Rizvi", "Sultan", "Chawla"]
+
+def display_array():
+    for i in range(10):
+        print(last_name[i])
+        
+def display_reverse():
+    for i in range(10):
+        last_name.reverse()
