@@ -1,0 +1,13 @@
+dyn_array = []
+values = input("Enter three values: ")
+
+for i in dyn_array:
+    #values = input("Enter three values: ")
+    dyn_array.insert(values)
+    dyn_array.append(values)
+    dyn_array.pop(values)
+    
+for i in dyn_array:
+    print(dyn_array)
+
+print(dyn_array)
