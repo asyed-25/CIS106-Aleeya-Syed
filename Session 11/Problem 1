@@ -1,0 +1,6 @@
+name = str(input("Enter name (last,first): "))
+last_name = name.strip(name[0:])
+first_name = name.strip(name[0:] + 1)
+final = len(name) - 1
+
+print(last_name, first_name)
