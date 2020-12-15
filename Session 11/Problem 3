@@ -1,0 +1,13 @@
+test_scores = input("Enter the test scores: ")
+score = test_scores.splitlines()
+#parse = score.find(",")
+score.strip(test_scores)
+print(score)
+    
+def score():
+    test_scores = input("Enter the test scores: ")
+    score = test_scores.splitlines()
+    score.split(",")
+    return score
+
+print(score())
