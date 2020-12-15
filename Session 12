@@ -1,0 +1,11 @@
+try:
+    s = open("scores.txt")
+
+test_scores = []
+
+def score():
+    score.split(",")
+    score.strip()
+    score.append(test_scores)
+    avg = sum(test_scores) / len(test_scores)
+    print(high, low, avg)
